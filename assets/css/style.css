@@ -1,0 +1,48 @@
+/* ==========
+Allgemein
+========== */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* ==========
+Header
+========== */ 
+
+/* ==========
+Main
+========== */ 
+main {
+    text-align: center;
+    margin: 15vh auto;
+}
+input {
+    max-width: 150px;
+    margin: .1rem auto;
+    display: block;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: .2rem;
+}
+form {
+    margin: 0 1rem;
+}
+button {
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    background-image: linear-gradient(45deg, darkslategray 50%, black);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    scale: 1.1;
+}
+p {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
