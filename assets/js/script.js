@@ -1,6 +1,5 @@
 let age = document.getElementById("alter");
 let ausgabe = document.getElementById("output");
-console.log(age.value);
 
 function alter1() {
 	if (age.value < 18) {
