@@ -10,9 +10,9 @@ function alter1() {
 
 
 	if (volljaehrig < 18) {
-		(ausgabe.innerHTML = "Du bist minderjährig!"),
+		(ausgabe.innerHTML = "Du bist minderjährig! Warte noch "+(18 - volljaehrig).toFixed(0)+" Jahre"),
 			(ausgabe.style.color = "hotpink");
 	} else {
-		(ausgabe.innerHTML = "Du bist volljährig"), (ausgabe.style.color = "green");
+		(ausgabe.innerHTML = "Du bist seit "+(volljaehrig - 18).toFixed(0)+" Jahren volljährig"), (ausgabe.style.color = "green");
 	}
 }
